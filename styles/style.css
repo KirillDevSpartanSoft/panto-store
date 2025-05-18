@@ -187,6 +187,8 @@ legend {
     display: grid;
     grid-template-columns: 2fr 8fr 2fr;
     gap: 20px;
+
+    margin-bottom: 86px;
 }
 
 .nav__logo {
@@ -245,4 +247,13 @@ legend {
     font-family: 'Inter-Regular';
     font-weight: 700;
     line-height: 25px;
+}
+
+.header__content {
+
+}
+
+.header__title {
+    font-family: 'Gilroy-Bold';
+    color: var(--header-text-color);
 }
